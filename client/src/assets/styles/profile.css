@@ -1,0 +1,197 @@
+.page {
+  padding-bottom: 2%;
+}
+.profile-container {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-top: 2%;
+}
+
+.profile-top {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  align-items: center; 
+  margin-bottom: 32px;
+}
+
+.profile-avatar img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+}
+
+.profile-info {
+  flex: 1;
+  padding-left: 5%;
+}
+
+
+.profile-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px 0;
+  font-size: 18px;
+}
+
+.profile-info ul li {
+  margin-bottom: 8px;
+}
+.profile-input{
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  font-size:18px;
+  padding-left: 2%;
+}
+.profile-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: stretch;
+}
+
+.profile-actions button {
+  white-space: nowrap;
+}
+.btn-change-password {
+  padding: 8px 16px;
+  background-color: #0d2744;
+  color: #f1eada;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-change-password:hover {
+  background-color: #0d2744;
+}
+
+.btn-primary {
+  padding: 10px 16px;
+  background-color: #0d2744;
+  color: #f1eada;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #0d2744;
+}
+
+.btn-secondary {
+  padding: 10px 16px;
+  background-color: transparent;
+  color: #000;
+  border: 2px solid #0d2744;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-secondary:hover {
+  background-color: #0d2744;
+  color: #f1eada;
+}
+
+
+.profile-skin {
+  border-top: 1px solid #ccc;
+  padding-top: 16px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap; 
+}
+
+.profile-skin > div {
+  flex: 1;
+  min-width: 200px;
+  font-size:18px;
+}
+
+.profile-skin h2 {
+  width: 100%;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+/* Списки без крапок */
+.profile-skin ul {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 16px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Овальні елементи масивів */
+.profile-skin ul li {
+  background-color: #e5e5e5;
+  color: #53728a;
+  padding: 6px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.profile-skin ul li.selected {
+  background-color: #53728a;
+  color: #e5e5e5;
+}
+
+.profile-skin ul li:hover {
+  background-color: #e5e5e5;
+}
+.profile-skin ul li.selected:hover {
+  background-color: #2b597a;
+}
+
+.profile-skin p, .profile-skin strong {
+  display: block;
+  margin-bottom: 8px;
+}
+.profile-skin select {
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 999px;
+  border: 2px solid #ccc;
+  background-color: #f5f5f5;
+  color: #2b597a;
+  outline: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.profile-skin select:hover {
+  border-color: #2b597a;
+}
+
+.profile-skin select:focus {
+  border-color: #2b597a;
+  box-shadow: 0 0 6px #2b597a;
+}
+.profile-skin select option {
+  padding: 8px 12px;
+  background-color: #f5f5f5;
+  border-radius: 999px;
+}
+.custom-select:focus {
+  outline: none;
+  border-color: #dfccc5;
+}
+.profile-skin select option {
+  padding: 8px 12px;
+  background-color:#f5f5f5;
+;
+}

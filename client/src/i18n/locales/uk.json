@@ -1,0 +1,128 @@
+{
+  "home": {
+    "title": "Ласкаво просимо",
+    "description": "Це головна сторінка"
+  },
+
+   "nav": {
+    "home": "Головна",
+    "login": "Вхід",
+    "profile" :"Профіль",
+    "register" :"Реєстрація",
+    "recomendation" :"Рекомендації"
+  },
+
+   "lang": {
+    "en": "Англійська"
+  },
+
+  "log": {
+    "title": "Вхід",
+    "subtitle": "",
+    "email": "Електронна адреса",
+    "password": "Пароль",
+    "orLoginWith": "Або увійдіть через",
+    "loginButton": "Увійти",
+    "phone": "Номер"
+  }, 
+
+  "reg":{
+    "title": "Реєстрація",
+    "subtitle": "",
+    "firstName": "Ім'я",
+    "firstNamePlaceholder": "Ваше ім'я",
+    "email": "Електронна адреса",
+    "reg.emailPlaceholder": "ваша_пошта@mail.com",
+    "password": "Пароль",
+    "passwordPlaceholder": "6 символів",
+    "registerButton": "Зареєструватися",
+    "orRegisterWith": "або реєстрація через",
+    "phone": "Номер"
+  },
+
+  "profile": {
+    "title": "Профіль",
+    "generalInfo": "Загальна інформація",
+    "name": "Ім'я",
+    "email": "Пошта",
+    "age": "Вік",
+    "aboutskin": "Особливості шкіри",
+    "phone": "Номер телефону",
+    "changePassword":"Змінити пароль",
+    "skinType": "Тип шкіри",
+    "skinFeatures": "Стан шкіри",
+    "allergens": "Алергени",
+    "editProfile": "Редагувати профіль",
+    "cancel": "Скасувати",
+    "saveProfile": "Зберегти",
+
+    "skinTypes": {
+      "normal": "Нормальна",
+      "dry": "Суха",
+      "oily": "Жирна",
+      "combination": "Комбінована",
+      "sensitive": "Чутлива"
+    },
+    "skinFeaturesList": {
+      "acne": "Акне",
+      "blackheads": "Чорні цятки",
+      "redness": "Почервоніння",
+      "peeling": "Лущення",
+      "pigmentation": "Пігментація",
+      "wrinkles": "Зморшки",
+      "dry_patches": "Сухі ділянки",
+      "oily_t_zone": "Жирна T-зона",
+      "rosacea": "Розацеа",
+      "couperose": "Купероз"
+    },
+    "allergensList": {
+      "fragrance": "Ароматизатори",
+      "alcohol": "Алкоголь",
+      "parabens": "Парабени",
+      "essential_oils": "Ефірні олії",
+      "lanolin": "Ланолін",
+      "silicone": "Силікони",
+      "nuts": "Горіхи",
+      "honey": "Мед",
+      "lactose": "Лактоза",
+      "pollen": "Пилок"
+    }
+  },
+    "recommendations": {
+    "title": "Рекомендовано для вашої шкіри",
+    "profile": "Ваш профіль",
+    "filters": "Фільтри",
+    "skinType": "Тип шкіри",
+    "skinFeatures": "Особливості шкіри",
+    "allergens": "Алергени",
+    "category": "Категорія",
+    "all": "Всі",
+    "none": "Немає",
+    "sortPrice": "Сортувати за ціною"
+  },
+  "main": {
+    "heroTitle": "Ласкаво просимо до SkinCare",
+    "heroSubtitle": "Персональні рекомендації косметики для твоєї шкіри",
+    "exploreProducts": "Розпочати",
+    "featuresTitle": "Наші переваги",
+    "feature1": { "title": "Індивідуальні рекомендації", "description": "Пропонуємо косметику саме під твій тип шкіри" },
+    "feature2": { "title": "Безпечні продукти", "description": "Враховуємо алергени та чутливість шкіри" },
+    "feature3": { "title": "Зручний профіль", "description": "Легко відстежуй свої налаштування та історію" },
+    "recommendedTitle": "Рекомендовані продукти",
+    "sampleProductName1": "Очищувальний гель",
+    "sampleProductName2": "Зволожуючий крем",
+    "sampleProductName3": "Сироватка для обличчя",
+    "sampleProductName4": "Нічна маска",
+    "sampleProductDescription": "Прекрасно підходить для щоденного догляду.",
+    "viewDetails": "Детальніше",
+    "aboutTitle": "Про нас",
+    "aboutDescription": "Ми допомагаємо знайти ідеальну косметику, що підходить саме вам.",
+    "viewProfile": "Переглянути профіль",
+    "footerText": "Усі права захищено.",
+    "sortPrice": "Сортувати за ціною",
+    "none": "Не сортувати",
+    "lowToHigh": "Від дешевих до дорогих",
+    "highToLow": "Від дорогих до дешевих"
+  }
+}
+

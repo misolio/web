@@ -1,0 +1,113 @@
+.burger {
+  width: 25px;
+  height: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  padding: 0;
+  z-index: 1001;
+}
+
+.burger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #000;     
+  border-radius: 1px;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+}
+
+
+.drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 210px;
+  height: 100vh;
+  background: #fff;
+  padding: 24px;
+  z-index: 1003;
+  background-color: #53728a;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.drawer.open {
+  transform: translateX(0);
+}
+
+.drawer a {
+  display: block;
+  margin-bottom: 16px;
+  text-decoration: none;
+  color: #e8e9e0;
+  font-size:24px;
+}
+.drawer a:first-child{
+  margin-top: 10%;
+}
+
+.site-name{
+  margin-left: 1%;
+  font-size:28px;
+  color: #000;
+}
+.nav-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size:18px;
+  height: 60px;
+  padding: 0 16px;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #7691ad;
+  z-index: 1002;
+}
+
+.nav-right {
+  margin-left: auto; 
+  display: flex;
+  align-items: center;
+  gap: 12px; 
+}
+
+.nav-right a,
+.nav-right a:visited {
+  color: black;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.nav-top .lang-switcher {
+  margin-left: auto;
+  
+}
+.btn-logout {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-logout img {
+  opacity: 1;
+  filter: none;
+}
+.nav-icon{
+  width: 80%;
+  height: 45%;
+  margin-top: 80%;
+}

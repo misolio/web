@@ -1,0 +1,93 @@
+.login-container {
+  max-width: 35%;
+  margin: 80px auto;
+  padding: 24px;
+  background: #e6eef6;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  font-size:16px;
+}
+
+.login-form div {
+  margin-bottom: 16px;
+  text-align: left;
+  font-size:16px;
+}
+
+.login-form input {
+  width: 95%;
+  padding: 8px 12px;
+  margin-top: 4px;
+  border: 1px solid #89cfdd;
+  border-radius: 4px;
+  font-size:16px;
+}
+
+.login-form button {
+  width: 80%;
+  padding: 8px 12px;
+  margin-top: 4px;
+  background-color: #53728A;
+  border: 1px solid #2b597a;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size:16px;
+}
+
+.social-login {
+  margin-top: 24px;
+}
+.social-buttons{
+  display: flex;
+}
+.social-buttons button {
+  flex: 1;
+  margin: 4px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  /* Нові властивості для вирівнювання вмісту */
+  display: flex;
+  align-items: center;    /* Центрування по вертикалі */
+  justify-content: center; /* Центрування по горизонталі */
+  gap: 8px;               /* Відстань між іконкою та текстом */
+}
+
+/* Прибираємо зайві відступи у параграфа, якщо ви його залишаєте */
+.social-buttons button p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.lang-icon {
+  width: 10px;  
+  height: 10px;
+ 
+}
+
+.btn-google { background-color: #dab8b5; color: #fff; font-size:16px;}
+.btn-facebook { background-color: #7691ad; color: #fff; font-size:16px; }
+.password-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-input-wrapper input {
+  width: 100%;
+  padding-right: 40px; /* місце під картинку */
+  box-sizing: border-box;
+}
+
+.password-toggle-img {
+  position: absolute;
+  right: 8px;
+  cursor: pointer;
+  width: 35px;   /* регулюєш розмір картинки */
+  height: 28px;
+}

@@ -1,0 +1,72 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #0d2744; /* колір “під футером” */
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+.main-content {
+  flex: 1; 
+}
+.page {
+  padding-top: 56px;      
+  padding-left: 24px;
+  padding-right: 24px;
+  min-height: 100vh;      
+  background-color: #e5e5e5;
+  box-sizing: border-box;
+}
+.footer {
+  background-color: #0d2744;
+  color: #f1eada;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  box-sizing: border-box;
+  flex-shrink: 0; /* щоб футер не стискався */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.footer-left p,
+.footer-right p,
+.footer-right a {
+  margin: 4px 0;
+  color: #f1eada;
+  text-decoration: none;
+}
+
+.footer-socials a {
+  margin-right: 12px;
+  color: #f1eada;
+  font-size: 20px;
+}
+
+.footer-socials a:hover {
+  color: #e5e5e5;
+}
+
+/* Блок з логотипом і копірайтом */
+.footer-bottom {
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* картинка над текстом */
+  align-items: center;
+  gap: 8px;
+  padding-top: 16px;
+}
+
+.footer-logo {
+  width: 150px;   /* задаємо бажану ширину */
+  height: auto;   /* зберігаємо пропорції */
+}

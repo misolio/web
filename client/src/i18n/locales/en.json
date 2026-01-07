@@ -1,0 +1,104 @@
+{
+  "home": {
+    "title": "Welcome",
+    "description": "This is the home page"
+  },
+  
+  "nav": {
+    "home": "Home",
+    "login": "Login",
+    "profile": "Profile",
+    "register" :"Registration",
+    "recomendation" :"Recommendations"
+  },
+  "lang": {
+    "uk": "Ukranian"
+  },
+  "log": {
+    "title": "Login",
+    "subtitle": "",
+    "email": "Email",
+    "password": "Password",
+    "orLoginWith": "Or login with",
+    "loginButton": "Login",
+    "phone": "Phone"
+  },
+
+  "reg":{
+    "title": "Registration",
+    "subtitle": "",
+    "firstName": "Name",
+    "firstNamePlaceholder": "Your name",
+    "email": "Email",
+    "reg.emailPlaceholder": "youremail@mail.com",
+    "password": "Password",
+    "passwordPlaceholder": "6 chars",
+    "registerButton": "Register",
+    "orRegisterWith": "or register with",
+    "phone": "Phone"
+  },
+
+  "profile": {
+    "title": "Profile",
+    "generalInfo": "General information",
+    "name": "Name",
+    "email": "Email",
+    "age": "Age",
+    "aboutskin": "Skin features",
+    "phone": "Phone",
+    "changePassword":"Change password",
+    "skinType": "Skin type",
+    "skinFeatures": "Skin features",
+    "allergens": "Allergens",
+    "editProfile": "Edit profile",
+    "cancel": "Cancel",
+    "saveProfile": "Save",
+
+    "skinTypes": {
+      "normal": "Normal",
+      "dry": "Dry",
+      "oily": "Oily",
+      "combination": "Combination",
+      "sensitive": "Sensitive"
+    },
+
+    "skinFeaturesList": {
+      "acne": "Acne",
+      "blackheads": "Blackheads",
+      "redness": "Redness",
+      "peeling": "Peeling",
+      "pigmentation": "Pigmentation",
+      "wrinkles": "Wrinkles",
+      "dry_patches": "Dry patches",
+      "oily_t_zone": "Oily T-zone",
+      "rosacea": "Rosacea",
+      "couperose": "Couperose"
+    },
+
+    "allergensList": {
+      "fragrance": "Fragrance",
+      "alcohol": "Alcohol",
+      "parabens": "Parabens",
+      "essential_oils": "Essential oils",
+      "lanolin": "Lanolin",
+      "silicone": "Silicones",
+      "nuts": "Nuts",
+      "honey": "Honey",
+      "lactose": "Lactose",
+      "pollen": "Pollen"
+    }
+  },
+    
+    "recommendations": {
+      "title": "Recommended for your skin",
+      "profile": "Your Profile",
+      "filters": "Filters",
+      "skinType": "Skin type",
+      "skinFeatures": "Skin features",
+      "allergens": "Allergens",
+      "category": "Category",
+      "all": "All",
+      "none": "None"
+    }
+  
+}
