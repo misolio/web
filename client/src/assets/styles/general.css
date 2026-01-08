@@ -11,6 +11,9 @@ html, body {
 .main-content {
   flex: 1; 
 }
+.main-content p {
+  line-height: 1.6;
+}
 .page {
   padding-top: 56px;      
   padding-left: 24px;

@@ -3,17 +3,19 @@
     "title": "Welcome",
     "description": "This is the home page"
   },
-  
+
   "nav": {
     "home": "Home",
     "login": "Login",
     "profile": "Profile",
-    "register" :"Registration",
-    "recomendation" :"Recommendations"
+    "register": "Registration",
+    "recomendation": "Recommendations"
   },
+
   "lang": {
-    "uk": "Ukranian"
+    "uk": "Ukrainian"
   },
+
   "log": {
     "title": "Login",
     "subtitle": "",
@@ -24,7 +26,7 @@
     "phone": "Phone"
   },
 
-  "reg":{
+  "reg": {
     "title": "Registration",
     "subtitle": "",
     "firstName": "Name",
@@ -46,7 +48,7 @@
     "age": "Age",
     "aboutskin": "Skin features",
     "phone": "Phone",
-    "changePassword":"Change password",
+    "changePassword": "Change password",
     "skinType": "Skin type",
     "skinFeatures": "Skin features",
     "allergens": "Allergens",
@@ -88,17 +90,48 @@
       "pollen": "Pollen"
     }
   },
-    
-    "recommendations": {
-      "title": "Recommended for your skin",
-      "profile": "Your Profile",
-      "filters": "Filters",
-      "skinType": "Skin type",
-      "skinFeatures": "Skin features",
-      "allergens": "Allergens",
-      "category": "Category",
-      "all": "All",
-      "none": "None"
-    }
-  
+
+  "recommendations": {
+    "title": "Recommended for your skin",
+    "profile": "Your Profile",
+    "filters": "Filters",
+    "skinType": "Skin type",
+    "skinFeatures": "Skin features",
+    "allergens": "Allergens",
+    "category": "Category",
+    "all": "All",
+    "none": "None",
+    "sortPrice": "Sort by price",
+    "lowToHigh": "Low to High",
+    "highToLow": "High to Low"
+  },
+
+  "main": {
+    "heroTitle": "Smart skincare starts with understanding your skin",
+    "heroSubtitle": "SkinCare is a personalized skincare recommendation platform that helps you find cosmetic products tailored to your skin type, concerns, and sensitivities.",
+    "exploreProducts": "Find your skincare routine",
+
+    "featuresTitle": "Why choose SkinCare",
+    "feature1": {
+      "title": "Personalized recommendations",
+      "description": "We analyze your skin type and individual concerns to suggest products that truly suit your skin and daily routine."
+    },
+    "feature2": {
+      "title": "Safe and conscious choices",
+      "description": "By considering allergens and unwanted ingredients, we help you avoid products that may cause irritation or discomfort."
+    },
+    "feature3": {
+      "title": "Simple and convenient experience",
+      "description": "All your preferences, recommendations, and updates are stored in one place for easy access and control."
+    },
+
+    "recommendedTitle": "Latest recommended products",
+    "viewDetails": "View details",
+
+    "aboutTitle": "About SkinCare",
+    "aboutDescription": "SkinCare was created to simplify skincare decisions and make cosmetic selection safe, transparent, and personalized. Our mission is to help you discover products that genuinely work for your skin.",
+    "viewProfile": "Go to profile",
+
+    "footerText": "All rights reserved."
+  }
 }

@@ -3,11 +3,16 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import "../assets/styles/home.css";
 import BannerImage from "../assets/images/cinamonroll2.webp";
-import SampleProduct from "../assets/images/cinamonroll1.webp";
 import Walk from "../assets/images/walk.webp";
+import  useProducts  from "../hooks/useProducts"; 
 
 export default function MainPage() {
   const { t } = useTranslation();
+  const { allProducts } = useProducts();
+
+  const latestProducts = [...allProducts]
+    .sort((a, b) => (b.createdAt?.seconds || 0) - (a.createdAt?.seconds || 0))
+    .slice(0, 4);
 
   return (
     <div className="main-page">
@@ -41,19 +46,29 @@ export default function MainPage() {
       </section>
 
       <section className="recommended-section">
-        <h2>{t("main.recommendedTitle")}</h2>
         <div className="products-preview">
-          {[1,2,3,4].map(i => (
-            <div key={i} className="product-card">
-              <img src={SampleProduct} alt="Sample Product" />
-              <h3>{t(`main.sampleProductName${i}`)}</h3>
-              <p>{t("main.sampleProductDescription")}</p>
-              
-            </div>
+        {latestProducts.map(product => (
+          <div key={product.id} className="product-card">
+            <img src={product.primary_image_url} alt={product.product_name} />
+            <h3 className="product-title">
+              <a
+                href={product.product_url}    
+                target="_blank"             
+                rel="noopener noreferrer"
+                className="product-title"
+              >
+                {product.product_name}
+              </a>
+            </h3>
+            
+          </div>
           ))}
+          <Link to="/recomendation" className="btn-arrow">
+            →
+          </Link>
+
         </div>
       </section>
-
       <section className="info-section">
         <div className="info-text">
           <h2>{t("main.aboutTitle")}</h2>

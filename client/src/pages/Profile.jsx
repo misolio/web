@@ -89,7 +89,6 @@ export default function Profile() {
 
   return (
     <div className="profile-container">
-      {/* Аватар та основна інфа */}
       <div className="profile-top">
         <div className="profile-avatar">
           <img src={user.photoURL} alt={user.name} />
@@ -155,7 +154,7 @@ export default function Profile() {
               ))}
             </select>
           ) : (
-            <p>{t(`profile.skinTypes.${user.skinType}`)}</p>
+            <p className="profile-skin-type">{t(`profile.skinTypes.${user.skinType}`)}</p>
           )}
 
           <strong>{t("profile.skinFeatures")}:</strong>

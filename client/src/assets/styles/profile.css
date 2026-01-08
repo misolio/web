@@ -31,7 +31,10 @@
   flex: 1;
   padding-left: 5%;
 }
-
+.profile-skin-type{
+  margin-top: 5px;
+  margin-bottom: 6px;
+}
 
 .profile-info ul {
   list-style: none;
