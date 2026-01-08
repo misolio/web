@@ -149,8 +149,6 @@ export default function Register() {
               onChange={(e) => setPassword(e.target.value)}
               required
             />
-
-            {/* Картинка замість кнопки */}
             <img
               className="password-toggle-img"
               src={showPassword ? OpenEyes : CloseEyes}

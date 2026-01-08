@@ -55,7 +55,6 @@ export default function Login() {
     }
   };
 
-  // 🔐 FACEBOOK
   const handleFacebookLogin = async () => {
     try {
       const result = await signInWithPopup(auth, facebookProvider);
